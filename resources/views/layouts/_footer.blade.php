@@ -5,12 +5,7 @@
         </div>
         <div class="col-sm-2 text-center">© {{date('Y').' '.$globalConfigs->copyright_owner}} </div>
         @if(!auth()->check())
-            <div class="col-sm-1 text-center">
-                <span class="pointer text-info" data-toggle="modal" data-target="#subscribe-form">Subscribe</span>
-            </div>
-            <div class="col-sm-1 text-center">
-                <span class="pointer text-info" data-toggle="modal" data-target="#feedback-form">Feedback</span>
-            </div>
+            
             <div class="col-sm-1 col-sm-offset-5 text-center">
                 <a href="{{route('login-form')}}" class="text-grey">Manage</a>
             </div>

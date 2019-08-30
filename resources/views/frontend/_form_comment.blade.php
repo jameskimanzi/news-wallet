@@ -15,9 +15,7 @@
                    id="email" placeholder="Email*" required>
         </div>
         <div class="form-group col-sm-6 col-sm-offset-6 no-padding-right checkbox">
-            <label>
-                <input type="checkbox" name="notify" v-model="comment.notify"> Notify me about new article
-            </label>
+            
             <button type="submit" class="btn btn-primary pull-right">Comment</button>
         </div>
     </form>

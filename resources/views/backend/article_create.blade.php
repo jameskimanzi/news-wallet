@@ -8,7 +8,7 @@
         <div class="panel-body" id="create-article">
             <article-form
                     :url="'{{route('store-article')}}'"
-                    :languages="{{ assoc2JsonArray(config('fields.lang'))}}"
+                  
                     :method="'POST'"
                     :categories="{{ json_encode($categories) }}">
             </article-form>

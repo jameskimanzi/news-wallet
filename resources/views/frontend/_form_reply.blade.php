@@ -34,9 +34,7 @@
                 </div>
                 <div class="modal-footer">
                     <div class="form-group col-sm-12 no-padding-right checkbox">
-                        <label class="padding-right-5">
-                            <input type="checkbox" name="notify"> Notify me about new article
-                        </label>
+                       
                         <button type="submit" class="btn btn-primary pull-right">Reply</button>
                     </div>
                 </div>
