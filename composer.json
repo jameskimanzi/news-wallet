@@ -1,13 +1,13 @@
 {
-    "name": "alimranahmed/larablog",
-    "description": "A full-featured blog using Laravel 5.7 & VueJS",
-    "keywords": ["blog", "laravel"],
-    "license": "MIT",
+    "name": "james/news-wallet",
+    "description": "artcles-blog",
+    "keywords": ["news-wallet", "laravel"],
+    "license": "",
     "type": "project",
     "authors": [
         {
-            "name": "Al Imran Ahmed",
-            "email": "al.imran.cse@gmail.com"
+            "name": "James",
+            "email": "jamespauloh@gmail.com"
         }
     ],
     "require": {
